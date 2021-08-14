@@ -427,6 +427,11 @@ section .container {
   line-height: 0;
 }
 
+.about-me .content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
@@ -661,6 +666,11 @@ section .container {
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
+}
+
+.resume .resume-item p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .resume .resume-item::before {
