@@ -872,6 +872,13 @@ section .container {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.3s transform ease;
+  transform: scale(1);
+}
+
+.portfolio .portfolio-wrap:hover img {
+  transition: 0.3s transform ease;
+  transform: scale(1.2);
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
