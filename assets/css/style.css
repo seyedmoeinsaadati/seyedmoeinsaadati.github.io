@@ -11,8 +11,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
+  background-color: #1F2421;
+  color: #DCE1DE;
   position: relative;
   background: transparent;
 }
@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #1F2421 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -36,7 +36,7 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #49A078;
   text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: #DCE1DE;
   line-height: 1;
   display: inline-block;
 }
@@ -83,12 +83,12 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #DCE1DE;
   font-family: monospace;
 }
 
 #header h2 span {
-  color: #fff;
+  color: #DCE1DE;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #DCE1DE;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -241,14 +241,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #DCE1DE;
 }
 
 /**
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #DCE1DE;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -377,7 +377,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: monospace;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .section-title p::after {
@@ -468,7 +468,7 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .counts .count-box p {
@@ -495,7 +495,7 @@ section .container {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .skills .progress .skill .val {
@@ -538,7 +538,7 @@ section .container {
   padding: 0;
   line-height: 1;
   font-size: 16px;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .interests .icon-box:hover {
@@ -566,7 +566,7 @@ section .container {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .testimonials .testimonial-item h4 {
@@ -628,7 +628,7 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .resume .resume-item {
@@ -711,7 +711,7 @@ section .container {
 }
 
 .services .icon-box .icon i {
-  color: #fff;
+  color: #DCE1DE;
   font-size: 28px;
 }
 
@@ -735,7 +735,7 @@ section .container {
 }
 
 .services .icon-box h4 a {
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .services .icon-box p {
@@ -750,7 +750,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #DCE1DE;
 }
 
 .services .icon-box:hover .icon i {
@@ -762,7 +762,7 @@ section .container {
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #fff;
+  color: #DCE1DE;
 }
 
 /*--------------------------------------------------------------
@@ -789,7 +789,7 @@ section .container {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
+  color: #DCE1DE;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
@@ -848,8 +848,8 @@ section .container {
   position: absolute;
   top: 5px;
   left: 5px;
-  border-top: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-top: 3px solid #DCE1DE;
+  border-left: 3px solid #DCE1DE;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -862,8 +862,8 @@ section .container {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-bottom: 3px solid #DCE1DE;
+  border-right: 3px solid #DCE1DE;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -882,16 +882,16 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  background-color: #00000040;
-  color: #ffffff;
+  background-color: #1F242140;
+  color: #DCE1DE;
   font-size: 28px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  background-color: #00000040;
-  color: #ffffff;
+  background-color: #1F242140;
+  color: #DCE1DE;
   font-size: 18px;
   padding: 0;
   margin: 0;
@@ -905,7 +905,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #000000;
+  color: #1F2421;
   margin: 10px 2px;
   background-color: #35e888;
   font-size: 20px;
@@ -914,7 +914,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #000000;
+  color: #1F2421;
   background-color: #15bb62;
 }
 
@@ -1040,7 +1040,7 @@ section .container {
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: #DCE1DE;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -1054,7 +1054,7 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: #DCE1DE;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
@@ -1118,7 +1118,7 @@ section .container {
   background: rgba(255, 255, 255, 0.08);
   border: 0;
   transition: 0.3s;
-  color: #fff;
+  color: #DCE1DE;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
@@ -1152,7 +1152,7 @@ section .container {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: #DCE1DE;
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -1190,7 +1190,7 @@ section .container {
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #fff;
+  color: #DCE1DE;
   z-index: 999999;
 }
 
@@ -1208,5 +1208,5 @@ section .container {
 }
 
 .credits a:hover {
-  color: #fff;
+  color: #DCE1DE;
 }
