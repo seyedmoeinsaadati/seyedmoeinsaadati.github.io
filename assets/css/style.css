@@ -798,6 +798,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   background: #18d26e;
+  color: #1F2421;
 }
 
 
